@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	align-items: center;
+}
+
+.Form{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;	
+	width: 60%;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+h3{
+	color: green;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-top: -15px;
+}
+
+.Form #name{
+	width: 90%;
+	margin-left: 10px;
+	border: none;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 8px;
+	border-radius: 5px;
+}
+
+label{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.Date-Amount{
+	width:	100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.Date-Amount .inputDiv{
+	display: flex;
+}
+
+.Date-Amount .button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.Date-Amount label{
+	width: 50%;
+}
+
+.Date-Amount label #date{
+	width: 80%;
+	margin-left: 22px;
+	border: none;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 6px;
+	border-radius: 5px;
+}
+
+.Date-Amount label #Amount{
+	width: 75%;
+	margin-left: 16px;
+	border: none;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 8px;
+	border-radius: 5px;
+}
+
+.AddExpense{
+	width: 120px;
+	border: none;
+	border-radius: 5px;
+	background: green;
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+table, .tr, .th{
+	width: 60%;
+	margin-top: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-collapse: collapse;
+}
+
+#tdInput{
+	border: none;
+	padding: 6px;
+	font-weight: bold;
+	background-color: inherit;
+}
+
+#second{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tr{
+	padding: 6px;
+}
+
+.th{
+	width: 25%;
+	text-align: left;
+	padding: 6px;
+	font-weight: bold;
+}
+
+.deleteButton {
+	border: none;
+	background-color: rgba(0, 0, 0, 0.1);
+	height: 20px;
+	width: 25px;
+	line-height: 15px;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
